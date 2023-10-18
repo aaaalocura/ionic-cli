@@ -5,7 +5,7 @@ import * as lodash from 'lodash';
 import * as path from 'path';
 
 import { CommandLineInputs, CommandLineOptions, CommandMetadata, CommandPreRun } from '../../definitions';
-import { input, strong } from '../../lib/color';
+import { input, strong } from '../../lib/color'; 
 import { FatalException } from '../../lib/errors';
 
 import { SSLBaseCommand } from './base';
